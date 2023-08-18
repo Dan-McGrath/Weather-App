@@ -26,7 +26,7 @@ const weatherDOM = (weather) => {
 };
 
 const apiInfo = async (location) => {
-  const weatherFetch = await fetch(url + key + location, { mode: "cors" })
+  const weatherFetch = await fetch(url + key + location)
     .then((response) => response.json())
     .then((response) => response)
     .catch((error) => console.log(error));

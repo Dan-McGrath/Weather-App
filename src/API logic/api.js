@@ -1,4 +1,4 @@
-const url = "http://api.weatherapi.com/v1/current.json?";
+const url = "https://api.weatherapi.com/v1/current.json?";
 const key = "key=f7dd6e89121847cd984212747231708&q=";
 
 const weatherDOM = (weather) => {
